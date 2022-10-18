@@ -67,10 +67,14 @@ nav ul li a {
     font-family: ARIAL;
 }
 
-li a:hover, li a:active {
+li a:hover {
     color: rgb(233, 176, 18);
     transition: .2s;
- 
+}
+
+li a:active {
+    color: rgb(149, 118, 199);
+    transition: .2s;
 }
 
 .checkbtn{
