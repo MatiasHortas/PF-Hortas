@@ -11,7 +11,7 @@
 
         .image_gallery {
             &::after {
-
+                left: 24%;
                 width: 48.5%;
                 height: 80%;
                 transform: translateY(125%);
@@ -19,7 +19,7 @@
         }
 
         .image-data {
-
+            left: 23%;
             top: 5rem;
 
         }

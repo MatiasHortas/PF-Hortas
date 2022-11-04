@@ -371,10 +371,12 @@ nav {
     font-size: 3.5rem;
     padding-top: 20%; }
   .container-galeria .image_gallery::after, .container-galeria .image_gallery1::after {
+    left: 24%;
     width: 48.5%;
     height: 80%;
     transform: translateY(125%); }
   .container-galeria .image-data, .container-galeria .image-data1 {
+    left: 23%;
     top: 5rem; }
   .container-galeria .image-data_text, .container-galeria .image-data_text1 {
     transform: translateX(-240%);
