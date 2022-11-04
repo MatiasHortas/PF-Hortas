@@ -1,0 +1,28 @@
+/* index */
+
+#container-title {
+    display: flex;
+    height: 45rem;
+    width: 100%;
+    color: rgb(179, 119, 31);
+    text-shadow: 4px 3px rgb(245, 245, 245);
+    background: linear-gradient(rgba(22, 18, 5, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/pexels-daniel-smyth-8865186.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    .h1-title {
+        font-size: 10rem;
+    }
+
+    .h2-title {
+        font-size: 3rem;
+        color: rgba(138, 89, 16, 0.877);
+        font-style: italic;
+        text-transform: lowercase;
+        letter-spacing: 8px;
+
+    }
+}

@@ -1,0 +1,55 @@
+/* nosotros */
+
+.container-about-me {
+    height: 42rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    background-image: url(../Imagenes/orange_grunge_in_white_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .container-h3-p {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+
+
+    }
+
+    h2 {
+        font-size: 5rem;
+        margin-bottom: 30px;
+        color: rgb(17, 17, 16);
+        text-shadow: 2px 1px rgb(240, 234, 234);
+    }
+
+    p {
+        font-size: 20px;
+        width: 40%;
+        line-height: 30px;
+        color: rgb(2, 1, 0);
+        text-transform: initial;
+
+
+    }
+
+    .container-image-about-me {
+
+        img {
+            height: 20rem;
+            width: 20rem;
+            position: absolute;
+            right: 10%;
+            top: 9rem;
+        }
+
+    }
+}

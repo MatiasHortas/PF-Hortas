@@ -1,0 +1,57 @@
+/* nav */
+nav {
+    background-color: rgb(24, 23, 23);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 50px;
+
+    .list-nav {
+        float: right;
+    }
+
+    @mixin modify($line-height, $font-size, $display) {
+
+        line-height: $line-height;
+        font-size: $font-size;
+        display: $display;
+
+    }
+
+    li {
+        @include modify(45px, 25px, inline-block);
+        margin: 0px 20px;
+
+
+
+        a {
+            text-decoration: none;
+            list-style: none;
+            color: rgb(255, 254, 253);
+            padding: 10px 20px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $color1;
+                transition: $transition1;
+
+            }
+        }
+
+
+    }
+
+    .checkbtn {
+        @include modify(48px, 25px, none);
+        color: white;
+        float: right;
+        margin-right: 40px;
+        cursor: pointer;
+
+    }
+
+    #check {
+        display: none;
+    }
+
+}
