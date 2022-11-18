@@ -1,0 +1,72 @@
+@media (max-width: 400px) {
+
+    /* index responsive */
+    #container-title {
+        text-shadow: 1px 1px rgb(245, 245, 245);
+
+
+        .h1-title {
+            font-size: 4rem;
+        }
+
+        .h2-title {
+            font-size: 1.5rem;
+            text-shadow: .5px .5px rgb(245, 245, 245);
+            letter-spacing: 5px;
+
+        }
+    }
+
+
+    .container-about-me {
+        padding-left: 0;
+
+        .container-h3-p {
+            padding-left: 0;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            width: 80%;
+
+        }
+    }
+
+    /* Galeria responsive */
+    .container-galeria {
+        h1.titulo-galeria {
+            text-align: center;
+        }
+
+        h2.titulo-galeria {
+            flex-wrap: wrap;
+        }
+    }
+
+    .contenedor-preguntas {
+        .preguntas {
+            padding-left: 0;
+        }
+
+        .title-preguntas {
+            font-size: 30px;
+        }
+
+        .preguntas-h2 {
+            text-align: center;
+        }
+    }
+
+    .container-contact {
+        .container-form {
+            width: 250px;
+            height: 520px;
+        }
+
+    }
+
+
+}

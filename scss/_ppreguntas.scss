@@ -1,15 +1,17 @@
 /* preguntas */
 .contenedor-preguntas {
+    
     .preguntas{
     padding-top: 100px;
     padding-left: 50px;
     padding-bottom: 20px;
     display: inline-block;
     position: relative;
-    background-image: url(../Imagenes/orange_grunge_in_white_background.jpg);
+    background-image: url(../Imagenes/orange_grunge_in_white_background2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    
     }
     .title-preguntas {
         font-size: 45px;
@@ -20,7 +22,7 @@
 
     }
 
-    .preguntas-h3 {
+    .preguntas-h2 {
         font-size: 25px;
         text-transform: initial;
         margin: 10px 10px;

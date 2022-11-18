@@ -8,8 +8,8 @@
 nav {
   background-color: #181717;
   position: fixed;
-  width: 100%;
-  z-index: 1;
+  width: 100vw;
+  z-index: 2;
   height: 50px; }
   nav .list-nav {
     float: right; }
@@ -45,7 +45,7 @@ nav {
   width: 100%;
   color: #b3771f;
   text-shadow: 4px 3px whitesmoke;
-  background: linear-gradient(rgba(22, 18, 5, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/pexels-daniel-smyth-8865186.jpg);
+  background: linear-gradient(rgba(22, 18, 5, 0.5), rgba(0, 0, 0, 0.5)), url(../Imagenes/1pexels-daniel-smyth-8865186.jpg);
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
@@ -69,7 +69,7 @@ nav {
   flex-direction: column;
   align-items: center;
   padding-left: 50px;
-  background-image: url(../Imagenes/orange_grunge_in_white_background.jpg);
+  background-image: url(../Imagenes/orange_grunge_in_white_background2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
@@ -80,7 +80,7 @@ nav {
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%; }
-  .container-about-me h2 {
+  .container-about-me h1 {
     font-size: 5rem;
     margin-bottom: 30px;
     color: #111110;
@@ -195,7 +195,7 @@ nav {
   padding-bottom: 20px;
   display: inline-block;
   position: relative;
-  background-image: url(../Imagenes/orange_grunge_in_white_background.jpg);
+  background-image: url(../Imagenes/orange_grunge_in_white_background2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
@@ -207,7 +207,7 @@ nav {
   padding-left: 10px;
   text-shadow: 4px 3px whitesmoke; }
 
-.contenedor-preguntas .preguntas-h3 {
+.contenedor-preguntas .preguntas-h2 {
   font-size: 25px;
   text-transform: initial;
   margin: 10px 10px; }
@@ -243,7 +243,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.678);
   height: 97vh;
   padding-top: 100px;
-  background-image: linear-gradient(rgba(19, 16, 11, 0.664), rgba(15, 12, 5, 0.534)), url(../Imagenes/pexels-arthur-ver-426983.jpg);
+  background-image: linear-gradient(rgba(19, 16, 11, 0.664), rgba(15, 12, 5, 0.534)), url(../Imagenes/1pexels-arthur-ver-426983.jpg);
   background-position: center;
   background-size: cover; }
   .container-contact .container-form {
@@ -285,10 +285,11 @@ nav {
 /* footer */
 .container-footer {
   background-color: #020101;
-  height: 14rem; }
+  height: 100%; }
   .container-footer .contenedor-iconos, .container-footer .copy {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    flex-wrap: wrap; }
   .container-footer .iconos {
     font-size: 30px;
     padding: 2.5rem 50px;
@@ -314,7 +315,8 @@ nav {
 
 /* contact responsive*/
 .container-contact {
-  padding-top: 80px; }
+  padding-top: 80px;
+  padding-bottom: 40rem; }
 
 @media (max-width: 1024px) {
   /* nav responsive */
@@ -354,7 +356,7 @@ nav {
     padding-bottom: 30px; }
   .container-galeria .publicidad_1,
   .container-galeria .publicidad {
-    width: 90vw;
+    width: 90%;
     height: 80vh; }
   /* preguntas responsive */
   .contenedor-preguntas .img-preguntas {
@@ -363,7 +365,8 @@ nav {
     right: 30px; }
   .contenedor-preguntas .map {
     height: 180px;
-    width: 75%; } }
+    width: 75%; }
+  /* contact responsive*/ }
 
 @media (max-width: 768px) {
   /* Galeria responsive */
@@ -426,11 +429,43 @@ nav {
     visibility: hidden; }
   /* contact responsive*/
   .container-contact .container-form {
-    width: 60%;
-    height: 90%; }
+    width: 300px; }
     .container-contact .container-form .titulo-contact {
       padding-top: 30px;
       font-size: 12px; }
     .container-contact .container-form .input {
       width: 70%;
-      font-size: 10px; } }
+      font-size: 12px; } }
+
+@media (max-width: 400px) {
+  /* index responsive */
+  #container-title {
+    text-shadow: 1px 1px whitesmoke; }
+    #container-title .h1-title {
+      font-size: 4rem; }
+    #container-title .h2-title {
+      font-size: 1.5rem;
+      text-shadow: 0.5px 0.5px whitesmoke;
+      letter-spacing: 5px; }
+  .container-about-me {
+    padding-left: 0; }
+    .container-about-me .container-h3-p {
+      padding-left: 0; }
+    .container-about-me h1 {
+      font-size: 4rem; }
+    .container-about-me p {
+      width: 80%; }
+  /* Galeria responsive */
+  .container-galeria h1.titulo-galeria {
+    text-align: center; }
+  .container-galeria h2.titulo-galeria {
+    flex-wrap: wrap; }
+  .contenedor-preguntas .preguntas {
+    padding-left: 0; }
+  .contenedor-preguntas .title-preguntas {
+    font-size: 30px; }
+  .contenedor-preguntas .preguntas-h2 {
+    text-align: center; }
+  .container-contact .container-form {
+    width: 250px;
+    height: 520px; } }

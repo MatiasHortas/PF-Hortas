@@ -1,89 +1,93 @@
-
 @media (max-width: 1024px) {
-/* nav responsive */
-nav {
-    .checkbtn {
-        display: block;
-    }
 
-    #check:checked~ul {
-        left: 0;
-    }
-
-    ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background-color: rgb(20, 18, 10);
-        top: 50px;
-        left: 100%;
-        text-align: center;
-        transition: all .5s;
-
-        li {
+    /* nav responsive */
+    nav {
+        .checkbtn {
             display: block;
-            margin: 50px 0;
-            line-height: 30px;
+        }
 
-            a {
-                font-size: 30px;
-            }
+        #check:checked~ul {
+            left: 0;
+        }
 
-            &:hover {
-                color: $color1;
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(20, 18, 10);
+            top: 50px;
+            left: 100%;
+            text-align: center;
+            transition: all .5s;
 
+            li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+
+                a {
+                    font-size: 30px;
+                }
+
+                &:hover {
+                    color: $color1;
+
+                }
             }
         }
     }
-}
+
     /* index responsive */
     #container-title {
 
         height: 35rem;
-    
+
+
         .h1-title {
             font-size: 7rem;
         }
-    
+
         .h2-title {
             font-size: 1.5rem;
             text-shadow: 1px 1px rgb(245, 245, 245);
-    
+
         }
     }
+
     /* galeria responsive */
     .container-galeria {
-        .row__publicidad{
+        .row__publicidad {
             display: flex;
             justify-content: center;
             padding-bottom: 30px;
         }
+
         .publicidad_1,
         .publicidad {
-            width: 90vw;
+            width: 90%;
             height: 80vh;
-            
-    
+
+
         }
 
     }
-	
+
     /* preguntas responsive */
 
-    .contenedor-preguntas{
+    .contenedor-preguntas {
         .img-preguntas {
             height: 1px;
             width: 150px;
             right: 30px;
         }
-    
-        
+
+
         .map {
             height: 180px;
             width: 75%;
         }
     }
 
-    }
-	
-
+   
+    
+}

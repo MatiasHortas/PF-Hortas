@@ -1,11 +1,15 @@
 /* footer */
 .container-footer {
     background-color: rgb(2, 1, 1);
-    height: 14rem;
+    height: 100%;
+    
 
     .contenedor-iconos {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+        
+        
     }
 
     .iconos {
